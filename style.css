@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(135deg, #3a6186, #89253e);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#clock {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#date {
+  font-size: 20px;
+  opacity: 0.9;
+}
